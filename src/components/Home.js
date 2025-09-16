@@ -349,7 +349,7 @@ export default function HomePage() {
               <h5>Location</h5>
               <p>SHOP NO.4, ARNICA IRIS CHS LTD, JANGID ENCL, MIRA ROAD[E], NR CINEMAX BEVERLY PARK, KANAKIYA ROAD,THANE,MAHARASHTRA, 401107</p>
               <p>Email: atlasenterprises8852@gmail.com</p>
-              <p>Phone: +91 8852030430</p>
+              <p>Phone: +91 9004639745</p>
             </Col>
             <Col md={6} >
             <h3>Pay through below scanner</h3>

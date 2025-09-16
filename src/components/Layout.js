@@ -100,7 +100,7 @@ export default function CategoryLayout({ title, image, description, rate, featur
                       className="text-decoration-none text-dark fw-semibold"
                       style={{ fontSize: "1rem" }}
                     >
-                      +91 8852030430
+                      +91 9004639745
                     </a>
                   </div>
                   <div className="d-flex align-items-center justify-content-center">
