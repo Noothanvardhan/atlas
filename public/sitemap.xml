@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Cotton -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/cotton</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Linen -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/linen</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Silk -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/silk</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Denim -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/denim</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Wool -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/wool</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Homet -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/homet</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Apparel -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/apparel</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tech -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/tech</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Hemp -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/hemp</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Accessories -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/accessories</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Breathe -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/breathe</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Aerowave -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/aerowave</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Ecoblend -->
+  <url>
+    <loc>https://www.atlasenterprisestextile.com/ecoblend</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
