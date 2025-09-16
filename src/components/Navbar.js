@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar , Nav , Container , Button } from "react-bootstrap";
 import { NavLink , Link  } from "react-router-dom";
 import { useState } from "react";
+
 import logo from '../images/logo-removebg-preview.png'
 
 
@@ -29,14 +30,15 @@ const products = [
 
  const [showCategories, setShowCategories] = useState(false);
  const [showProducts, setShowProducts] = useState(false);
+ const [ expanded , setExpanded ] = useState(false);
   
     return(
-    <Navbar expand="lg"  fixed="top" className="navbar-bg" >
+    <Navbar expand="lg"  fixed="top" className="navbar-bg"  expanded={expanded} onToggle={() => setExpanded(!expanded)}>
         <Container>
           <Navbar.Brand as={NavLink} to='/' className="fw-bold text-success">
             <img src={logo} alt="logo" className="img-fluid" style={{width :'75px', height :'75px' , objectFit :'cover',borderRadius:'50%'}} />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="main-nav" />
+          <Navbar.Toggle aria-controls="main-nav"  />
           <Navbar.Collapse id="main-nav">
             <Nav className="ms-auto align-items-center position-relative">
 
@@ -45,6 +47,7 @@ const products = [
               onMouseEnter={() => setShowCategories(true)}
               onMouseLeave={() => setShowCategories(false)}
               style={{ position: "relative", cursor: "pointer" }}
+
             >
               Categories
               {showCategories && (
@@ -176,9 +179,19 @@ const products = [
              
               
               <Nav.Link as={NavLink}  to='/about'>About</Nav.Link>
-              <Button variant="success" href="#contact" className="ms-3 px-4">
-                Contact
-              </Button>
+              
+      <Button
+      variant="success"
+        className="ms-3 px-4"
+        onClick={() => {
+          setExpanded(false);
+          document
+            .getElementById("contact")
+            ?.scrollIntoView({ behavior: "smooth" });
+        }}
+      >
+        Contact
+      </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>
